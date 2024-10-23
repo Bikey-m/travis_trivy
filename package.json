@@ -1,5 +1,5 @@
 {
-  "name": "docker-travis-ci-demo",
+  "name": "travis_trivy",
   "version": "1.0.0",
   "scripts": {
     "start": "node index.js"
