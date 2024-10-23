@@ -1,0 +1,10 @@
+language: minimal
+
+services:
+  - docker
+
+before_install:
+  - docker build -t docker-travis-ci-demo .
+
+script:
+  - docker run docker-travis-ci-demo node index.js
